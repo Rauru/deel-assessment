@@ -1,7 +1,11 @@
 {
-    "baseUrl": "http://app.deel.training/login",
-    "experimentalSessionSupport":true,
-    "viewportHeight": 1080,
-    "viewportWidth": 1920
+  "baseUrl": "http://app.deel.training/login",
+  "experimentalSessionSupport": true,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "retries": {
+    "runMode": 2,
+    "openMode": 2
+  },
+  "projectId": "7cwnfj"
 }
-

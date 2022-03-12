@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="42.1380" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-03-12T05:48:35" tests="0" file="cypress/integration/contract/contract.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="example to-do app" timestamp="2022-03-12T05:48:35" tests="1" time="42.1380" failures="0">
+    <testcase name="example to-do app Create Fixed Rate contract" time="42.1380" classname="Create Fixed Rate contract">
+    </testcase>
+  </testsuite>
+</testsuites>
