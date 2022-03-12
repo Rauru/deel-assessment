@@ -1,3 +1,7 @@
 node_modules
 cypress/screenshots
 cypress/videos
+.DS_Store
+allure-report
+allure-results
+test-results.xml
