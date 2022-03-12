@@ -18,4 +18,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          parallel: true
           start: cypress run --record --key 0c2a89c2-8fa0-4037-ac2d-5451633fb8ca --parallel
