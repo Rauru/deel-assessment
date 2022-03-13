@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "npm run cy:run || npm run posttest",
-    "cy:run": "cypress run --record --key 0c2a89c2-8fa0-4037-ac2d-5451633fb8ca --parallel --reporter mocha-allure-reporter",
+    "cy:run": "cypress run --reporter mocha-allure-reporter",
     "allure:report": "allure generate  allure-results --clean -o allure-report && allure open allure-report",
     "allure:clear": "rm -rf allure-results && rm -rf allure-report rm -rf cypress/videos && rm -rf cypress/screenshots",
     "pretest": "npm run allure:clear",
