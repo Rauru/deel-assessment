@@ -1,4 +1,4 @@
-# deel-assessment
+# Deel-assessment
 
 Automation suite made with Cypress, github actions and Allure
 
