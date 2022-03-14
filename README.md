@@ -14,7 +14,7 @@ Go to the root directory of this project and install packages with ```npm instal
 
 Running  ``` npm test``` kicks off the project.
 ``` npx cypress open``` can be used to open the Cypress dashboard.
-``` npx cypress open``` can be used to run the Cypress test runner.
+``` npx cypress run``` can be used to run the Cypress test reporter.
 Parallel tests needs to be triggered from the Github Actions manually or by making a commit.
 
 
